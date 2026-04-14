@@ -18,16 +18,15 @@ function App() {
     });
   }, []);
 
-  return React.createElement(
-    React.Fragment,
-    null,
-
-    React.createElement(Navbar),
-    React.createElement(Hero),
-    React.createElement(About),
-    React.createElement(Projects),
-    React.createElement(Contact),
-    React.createElement(Footer)
+  return (
+    <div>
+      <Navbar />
+      <Hero />
+      <About />
+      <Projects />
+      <Contact />
+      <Footer />
+    </div>
   );
 }
 
